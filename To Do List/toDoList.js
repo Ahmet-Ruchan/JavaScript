@@ -3,7 +3,7 @@ let LocalTask = {id:"", task:"" , check: false} //Object to hold LocalStorage in
 let ArrayTask = []                          //array for LocalStorage    
 let i=0;                                  //variable for id assignment (this way we can access list elements more easily)     
 
-//LocalStorage işlemleri
+//LocalStorage operations
 if(localStorage.getItem('load'))    // If there is a LocalStorage, enter it
 {   
     ArrayTask = JSON.parse(localStorage.getItem('load')) // call LocalStorage
