@@ -64,7 +64,7 @@ function formHandler(event) {
 }
 
 
-//Bilgi ekleme fonksiyonu
+// Add information function
 const addItem = (task) => 
 { 
     i++;
@@ -90,7 +90,7 @@ const addItem = (task) =>
     listDOM.append(liDOM)       //add the list element to the end of the list
 }
 
-//Silme fonksiyonu
+//Delete function
 function RemoveFunc(j) {                   // "j" id number                     
     const element = document.querySelector(`#id${j}`);      //assign the list item to be deleted    
 
@@ -103,7 +103,7 @@ function RemoveFunc(j) {                   // "j" id number
         element.remove();          //delete the list element                             
 }
 
-//Checked işlemi
+//Checked operation
 document.addEventListener('click', (element) =>      // reach the clicked list element           
 {
     if(element.target.matches('li'))     // check if it is a list element                       
