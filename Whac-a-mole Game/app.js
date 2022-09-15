@@ -36,7 +36,6 @@ function moveMole(){
 }
 
 moveMole()
-//randomSquare()
 
 function countDown(){
     currentTime--;
